@@ -1,0 +1,283 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+position: relative;
+width: 100%;
+height: 100vh;
+background:black;
+}
+.hero nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 0px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+.hero nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+.hero nav ul li a{
+    text-decoration: none;
+    color: rgb(240, 228, 228);
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.hero nav ul li a:hover{
+    color: rgb(12, 17, 97);
+}
+
+.about nav{
+
+    width: 84%;
+    
+}
+.about nav ul li{
+    
+    list-style: none;
+
+}
+.about nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+.about nav ul li a:hover{
+    color: rgb(12, 17, 97);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.detal{
+    margin-left: 8%;
+    margin-top: 10%;
+    
+
+}
+span{
+    color: rgb(250, 166, 10);
+}
+h1{
+    margin-bottom: 2% ;
+    font-size: 50px;
+    color: #d6c1c1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ p{
+    color:white;
+    font-weight: bold;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+    height: 100%;
+    position:absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition:bottom 1s,left 1s;
+
+}
+.girl{
+    margin-top: 200px;
+    -webkit-clip-path: circle(40.0% at 47% 47%);
+    clip-path: circle(40.0% at 47% 47%);
+}
+header {
+    text-align: center;
+    background-color:rgb(38, 55, 112);
+    color: white;
+    
+}
+
+
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.aboutme{
+    -webkit-clip-path: circle(40.0% at 47% 47%);
+clip-path: circle(40.0% at 47% 47%);
+margin-top: 100px;
+}
+.a h1{
+    color: rgb(228, 221, 221);
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 100px;
+}.a{
+    height: 100vh;
+    min-width: 1300px;
+    display: flex;
+   background-color:rgb(19, 117, 93);
+    justify-content: space-between;
+   /* align-items: center;
+    text-align: center;*/
+    justify-content: space-around;
+    align-items: center;
+}
+.container{
+    background-color:rgb(197, 148, 197);
+    padding:50px 20px 15px 20px;
+    border:none;
+    border-radius: 4px; 
+
+
+}
+.main_heading{
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size:60px;
+   margin-bottom: 0;
+   margin-top: 0;
+   color:aliceblue;
+   margin-left: 50px;
+}
+p{
+    margin-left: 60px;
+}
+h2{
+    font-family: 'Bebas Neue', sans-serif ;
+    color: aliceblue;
+    
+}
+input[type="submit"]{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(110, 107, 93);
+    padding:12px 20px;
+    border:2px solid darkgrey;
+    border-radius: 4px;
+    cursor:pointer;
+    
+}
+input[type="email"]{
+    width:50%;
+}
+input[type="submit"]:hover{
+    background-color:rgb(201, 202, 119);
+}
+hr{
+    border: none;
+}
+#contact{
+    background-color:rgb(221, 161, 221);
+}
+nav :hover{
+    color:blue;
+}
+.aboutme{
+    background-color: rgb(10, 42, 54);
+}
+.paragraph span{
+    color:rgb(3, 49, 21);
+    font-weight: bold;
+}
+.seperate{
+
+    justify-content: space-between;
+     
+     display:flex;
+     justify-content: space-around;
+      align-items: center; 
+     margin-left: 200px;
+     
+}
+.logo1,.logo2,.logo3,.logo4{
+    justify-content: space-between;
+     
+     display:flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 10px;
+     margin-left: 10px;
+
+}
+.skill1,.skill2,.skill3,.skill4{
+    justify-content: space-between;
+     
+     display:flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 10px;
+     margin: center;
+     margin-left: 10px;
+     
+}
+.skill h2{
+    text-align: center;
+    align-items: center;
+    color: rgb(4, 46, 37);
+    font-size: 70px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.color{
+    background-color:rgb(17, 172, 172);
+    margin-top: 0px;
+    margin: 0;
+    padding: 0;
+}
+h3{
+    margin-left:15px ;
+    color: aliceblue;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+p{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+h4{
+    margin-left: 20px;
+    color: aliceblue;
+    font-size: 30px;
+    margin-right: 20px;
+}
+.skill{
+    margin-top: 0px 0px;
+
+    background-color: aliceblue;
+}
+#contact p{
+    margin-left: 50px;
+}
+hr{
+    border: 3px solid black;
+}
